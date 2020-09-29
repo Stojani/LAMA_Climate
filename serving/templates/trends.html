@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    
+    <div class="container-fluid">
+        <h1>Antarctica Climate Trends: {{time}}</h1>
+        {% if trends|length < 1 %}
+        <h4 style="text-align: center">There are no trends. Retry after!</h4>
+        {% else %}
+        <table class="table">
+            <tr>
+                <td class="text-bold">Location</td>
+                <th>Interval</th>
+                <th>Actual Temperature </th>
+                <th>Temperature Trend</th>
+                <th>Actual Wind </th>
+                <th>Wind Trend</th>
+                <th>Actual Humidity </th>
+                <th>Humidity Trend</th>
+                <th>Weather</th>
+            </tr>
+            {% for trend in trends %}
+                <tr>
+                    <td class="text-bold">{{ trend.location }}</td>
+                    <td class="text-bold">{{ trend.interval }}</td>
+                    <td >{{ trend.actual_temperature }} </td>
+                    <td> {{ trend.temperature_trend }} %</td>
+                    
+                    <td >{{ trend.actual_wind }} m/s</td>
+                    <td>{{ trend.wind_trend}} %</td>
+
+                    <td >{{ trend.actual_humidity }} %</td>
+                    <td> {{trend.humidity_trend}} %</td>
+                    
+                    <td> {{trend.weather}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+    
+    </body>
+</html>

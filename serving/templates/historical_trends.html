@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+    <body>
+
+    <h1>Antarctica Climate Historical Trends - Current Season: {{season}}</h1>
+    {% if trends|length < 1 %}
+    <h4 style="text-align: center">There are no trends. Retry after!</h4>
+    {% else %}
+    <table>
+        <tr>
+            <th>Season</th>
+            <th>Year</th>
+            <th>Measure</th>
+            <th>Value</th>
+            <th>Trend</th>
+        </tr>
+        {% for trend in trends %}
+            <tr>
+                <td class="text-bold">{{ trend[0] }}</td>
+                <td class="text-bold">{{ trend[1] }}</td>
+                <td class="text-bold">{{ trend[2] }}</td>
+                <td class="text-bold">{{ trend[3] }}</td>
+                <td class="text-bold">{{ trend[4] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    </body>
+</html>

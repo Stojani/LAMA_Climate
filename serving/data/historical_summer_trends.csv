@@ -1,0 +1,37 @@
+season,year,measure,value,trend
+summer,2017,Max Temperature,-15.44,0.0
+summer,2018,Max Temperature,-13.91,9.91
+summer,2019,Max Temperature,-18.84,-35.44
+summer,2020,Max Temperature,-17.38,7.75
+summer,2017,Min Temperature,-50.45,0.0
+summer,2018,Min Temperature,-48.53,3.81
+summer,2019,Min Temperature,-51.82,-6.78
+summer,2020,Min Temperature,-45.03,13.1
+summer,2017,AVG Temperature,-31.85,0.0
+summer,2018,AVG Temperature,-31.61,0.75
+summer,2019,AVG Temperature,-32.4,-2.5
+summer,2020,AVG Temperature,-29.82,7.96
+summer,2017,Max Wind Speed,4.625385405543895E18,0.0
+summer,2018,Max Wind Speed,4.6245043888667914E18,-0.02
+summer,2019,Max Wind Speed,4.6252277795569377E18,0.02
+summer,2020,Max Wind Speed,4.6226804310177065E18,-0.06
+summer,2017,Min Wind Speed,4.5999766593962245E18,0.0
+summer,2018,Min Wind Speed,4.6088937866584182E18,0.19
+summer,2019,Min Wind Speed,4.5942120518731904E18,-0.32
+summer,2020,Min Wind Speed,4.6121138603919882E18,0.39
+summer,2017,AVG Wind Speed,8.04,0.0
+summer,2018,AVG Wind Speed,7.84,-2.49
+summer,2019,AVG Wind Speed,8.04,2.55
+summer,2020,AVG Wind Speed,7.03,-12.56
+summer,2017,Max Humidity,91.0,0.0
+summer,2018,Max Humidity,86.0,-5.49
+summer,2019,Max Humidity,87.0,1.16
+summer,2020,Max Humidity,97.0,11.49
+summer,2017,Min Humidity,50.0,0.0
+summer,2018,Min Humidity,55.0,10.0
+summer,2019,Min Humidity,54.0,-1.82
+summer,2020,Min Humidity,65.0,20.37
+summer,2017,AVG Humidity,68.72,0.0
+summer,2018,AVG Humidity,69.28,0.81
+summer,2019,AVG Humidity,68.59,-1.0
+summer,2020,AVG Humidity,77.26,12.64

@@ -1,0 +1,37 @@
+season,year,measure,value,trend
+winter,2017,Max Temperature,-27.85,0.0
+winter,2018,Max Temperature,-29.64,-6.43
+winter,2019,Max Temperature,-33.37,-12.58
+winter,2020,Max Temperature,-25.09,24.81
+winter,2017,Min Temperature,-64.2,0.0
+winter,2018,Min Temperature,-61.16,4.74
+winter,2019,Min Temperature,-65.1,-6.44
+winter,2020,Min Temperature,-54.54,16.22
+winter,2017,AVG Temperature,-48.09,0.0
+winter,2018,AVG Temperature,-45.61,5.16
+winter,2019,AVG Temperature,-47.47,-4.08
+winter,2020,AVG Temperature,-43.37,8.64
+winter,2017,Max Wind Speed,4.6257288050154824E18,0.0
+winter,2018,Max Wind Speed,4.6260299832405627E18,0.01
+winter,2019,Max Wind Speed,4.6256922132685097E18,-0.01
+winter,2020,Max Wind Speed,4.62573161976525E18,0.0
+winter,2017,Min Wind Speed,4.6083533547031337E18,0.0
+winter,2018,Min Wind Speed,4.6121138603919882E18,0.08
+winter,2019,Min Wind Speed,4.6117085364255252E18,-0.01
+winter,2020,Min Wind Speed,4.6116409824311142E18,0.0
+winter,2017,AVG Wind Speed,10.15,0.0
+winter,2018,AVG Wind Speed,10.45,2.96
+winter,2019,AVG Wind Speed,9.82,-6.03
+winter,2020,AVG Wind Speed,9.5,-3.26
+winter,2017,Max Humidity,91.0,0.0
+winter,2018,Max Humidity,86.0,-5.49
+winter,2019,Max Humidity,89.0,3.49
+winter,2020,Max Humidity,100.0,12.36
+winter,2017,Min Humidity,24.0,0.0
+winter,2018,Min Humidity,48.0,100.0
+winter,2019,Min Humidity,52.0,8.33
+winter,2020,Min Humidity,35.0,-32.69
+winter,2017,AVG Humidity,65.59,0.0
+winter,2018,AVG Humidity,65.61,0.03
+winter,2019,AVG Humidity,65.98,0.56
+winter,2020,AVG Humidity,86.49,31.09

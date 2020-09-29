@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    
+    <div class="container">
+        <h1>Antarctica Climate Historical Measures</h1>
+        {% if measures|length < 1 %}
+        <h4 style="text-align: center">There are no measures. Retry after!</h4>
+        {% else %}
+        <h2>Current Season: {{season}}</h2>
+        <table class="table">
+            <tr>  
+                <th>Measure</th>
+                <th>Value</th>
+                <th>Measure's related year</th>
+            </tr>
+            {% for measure in measures %}
+                <tr>
+                    <td class="text-bold">{{ measure[2] }}</td>
+                    <td>{{ measure[3] }}</td>
+                    <td>in the {{ measure[0] }} of <span class="text-bold">{{ measure[1] }}</span></td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    
+    </div>
+    
+    </body>
+</html>
